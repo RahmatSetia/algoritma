@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 
+
+route::get('/dashboard', [ProductController::class, 'dashboard']) -> name('dashboard');
 //read
 route::get('/', [ProductController::class, 'index']) -> name('products');
 
