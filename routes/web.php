@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 
 
-route::get('/dashboard', [ProductController::class, 'dashboard']) -> name('dashboard');
+route::get('/', [ProductController::class, 'dashboard']) -> name('dashboard');
 //read
-route::get('/', [ProductController::class, 'index']) -> name('products');
+route::get('/product', [ProductController::class, 'index']) -> name('products.product');
 
 //create
 route::get('/product/create', [ProductController::class, 'create']) -> name('products.create');

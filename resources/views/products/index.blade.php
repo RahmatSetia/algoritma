@@ -53,7 +53,6 @@
                                 @endempty
                             </td>
                             <td>
-                                <a href="" class="btn btn-sm btn-secondary">show</a>
                                 <a href="{{ route('products.edit', $k->id) }}" class="btn btn-sm btn-warning">edit</a>
                                 <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal{{$k->id}}">
                                     hapus
