@@ -2,6 +2,9 @@
 ## Framework
 Laravel
 
+## Database
+MySql
+
 ## PHP version
 Version : 8.2.12
 
