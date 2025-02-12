@@ -61,6 +61,12 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Count even Number
                             </a>
+
+                            <a class="nav-link" href="{{route('products.deret')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Fibbonaci
+                            </a>
+
                             <div class="sb-sidenav-menu-heading">Interface</div>
                             
 

@@ -24,3 +24,6 @@ route::get('/array6', [ProductController::class, 'array6']) -> name('products.ar
 
 //even number in array
 route::get('/evenNumber', [ProductController::class, 'evenNumber']) -> name('products.evenNumber');
+
+//deret fibbonci
+route::get('/deret', [ProductController::class, 'deret']) -> name('products.deret');

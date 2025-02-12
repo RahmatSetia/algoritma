@@ -164,9 +164,13 @@ class ProductController extends Controller
     }
 
     public function evenNumber(){
-        $data = [4,5,2,3,5,7,9,8,10,2,13];
 
         return view('products.evenNumber');
+    }
+
+    public function deret(){
+
+        return view('products.deret');
     }
 
 
